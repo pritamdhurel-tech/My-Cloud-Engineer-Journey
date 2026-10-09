@@ -24,6 +24,13 @@ key consequences:
 
 # 3. MlOps
 
+CI/CD specifically for AI/ML. It doesn't just test code: it test data quality & model accuracy. Automates retraining and performance monitoring.
+
+-> data changes (new data, drift, bad labels)
+-> Models are trained artifacts, not compiled ones.
+
+limitation: Massive infrastructure costs & complex data versioning
+
 # Comparision
 
 | Category                    | DevOps                                                                         | GitOps                                                                             | AIOps                                                                            |
