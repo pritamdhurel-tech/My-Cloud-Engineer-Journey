@@ -64,3 +64,7 @@ github
 
 7. Instance
    ![instanceImage](screenshots/InstanceImage.png)
+
+8. Policies
+
+9. Rule
