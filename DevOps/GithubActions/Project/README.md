@@ -1,6 +1,6 @@
 # From Code to the Cloud: My First CI/CD Project
 
-![Deploy](https://github.com/pritamdhurel-tech/University_Research_Portal_Security_Application/actions/workflows/deploy.yaml/badge.svg)
+[![Deploy University Research Portal Application to the AWS Instances](https://github.com/pritamdhurel-tech/University_Research_Portal_Security_Application/actions/workflows/deploy.yaml/badge.svg)](https://github.com/pritamdhurel-tech/University_Research_Portal_Security_Application/actions/workflows/deploy.yaml)
 
 Hi, I'm Dhurel, a Computer Science / IT student working towards a cloud engineering career. This repository is my first CI/CD project. It is also the first time I took an application I had built and made it run on a real cloud server, updating itself every time I push new code.
 
@@ -47,7 +47,7 @@ The AWS instance is a short-lived test environment, so I keep it stopped when I 
 
 ## How it works
 
-![Architecture diagram](screenshots/Github-actions-Cloud-architecture.gif)
+![Architecture diagram](screenshots/Cloud-architecture.gif)
 
 _The diagram shows two flows. On the left, I push code to GitHub and GitHub Actions deploys it to the server over SSH. On the right, the server reads its secrets from AWS Systems Manager Parameter Store through an IAM role, and users reach the app through nginx on port 80._
 
