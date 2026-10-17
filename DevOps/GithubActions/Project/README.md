@@ -31,7 +31,7 @@ Before this project, deploying meant logging into the server by hand and typing 
 
 ## Video demo
 
-▶ **[Watch the demo (about 90 seconds)](DEMO-LINK-HERE)**
+▶ **[Watch the demo (about 90 seconds)](demo_video/Demo.mp4)**
 
 In the video, you will see:
 
