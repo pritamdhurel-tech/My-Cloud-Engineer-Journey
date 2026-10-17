@@ -84,7 +84,7 @@ On the server, three containers run with Docker Compose:
 
 **5. Deploy by hand first.** I installed Docker, pulled the code with git, and ran Docker Compose on the instance until the site worked. I wanted to know the manual steps before automating them, because automating something you don't understand just hides the problems.
 
-**6. Write the pipeline.** I wrote the GitHub Actions workflow in `.github/workflows/deploy.yaml`. My first runs failed for a while (more on that below).
+**6. Write the pipeline.** I wrote the GitHub Actions workflow in `https://github.com/pritamdhurel-tech/University_Research_Portal_Security_Application/blob/main/.github/workflows/deploy.yaml`. My first runs failed for a while (more on that below).
 
 **7. Add tests and a gate.** I added backend tests and made the deploy job wait for them with `needs: test`. In an earlier run I noticed the test and deploy jobs were running side by side, which meant the tests weren't protecting anything. Adding that one line changed the run graph so deploy only starts after test succeeds.
 
