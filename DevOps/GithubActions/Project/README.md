@@ -2,7 +2,7 @@
 
 [![Deploy University Research Portal Application to the AWS Instances](https://github.com/pritamdhurel-tech/University_Research_Portal_Security_Application/actions/workflows/deploy.yaml/badge.svg)](https://github.com/pritamdhurel-tech/University_Research_Portal_Security_Application/actions/workflows/deploy.yaml)
 
-Hi, I'm Dhurel, a Computer Science / IT student working towards a cloud engineering career. This repository is my first CI/CD project. It is also the first time I took an application I had built and made it run on a real cloud server, updating itself every time I push new code.
+Hi, I'm Pritam Dhurel, a Computer Science / IT student working towards a cloud engineering career. This repository is my first CI/CD project. It is also the first time I took an application I had built and made it run on a real cloud server, updating itself every time I push new code.
 
 I want to be honest about how this went. It did not work the first time, or the second, or the tenth. Most of what I learned came from things breaking, so this README tells the whole story: what I built, how I built it, every problem I ran into and how I fixed it, and what I would still improve.
 
